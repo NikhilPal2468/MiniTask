@@ -1,0 +1,46 @@
+.container {
+  display: flex;
+  width: 200px;
+  height: 200px;
+  align-items: center;
+  justify-content: center;
+}
+input {
+  width: 40px;
+  height: 36px;
+  outline: none;
+  border: none;
+  background-color: #f1e8e8;
+  color: rgb(199, 73, 73);
+  font-weight: 700;
+  font-size: 20px;
+  border: 1px solid rgb(199, 73, 73);
+  display: flex;
+  text-align: center;
+}
+.plus {
+  width: 40px;
+  height: 40px;
+  outline: none;
+  border: none;
+  font-size: 20px;
+  background-color: rgb(199, 73, 73);
+  border: 1px solid rgb(199, 73, 73);
+  border-radius: 0px 5px 5px 0px;
+  color: white;
+  border-left: none;
+  cursor: pointer;
+}
+.minus {
+  width: 40px;
+  height: 40px;
+  outline: none;
+  border: none;
+  font-size: 20px;
+  background-color: white;
+  border-radius: 5px 0px 0px 5px;
+  color: rgb(199, 73, 73);
+  border: 1px solid rgb(199, 73, 73);
+  border-right: none;
+  cursor: pointer;
+}
